@@ -1,16 +1,20 @@
-# Bamboohr API Integration
+# Introduction
+Here is the Technical Integration Assignment from Pravin Birla 😃
 
-## Overview
-This is an simple api integration project devloped in node js.
+# Setup Guide
+- Clone the project.
+- Run following commands in the terminal:
+- Create `.env` file in root folder, WIth properties defined in `.env-example`.
+```bash
+npm install
+npm start
+``` 
+- Then use url to get data `http://{HOST}:{PORT}/api/employees/{id}`
 
-## Setup Guide
-1. Clone the project.
-2. Run `npm install` in terminal.
-3. Create `.env` file in root folder and all properties  define in `.env-example`.
-4. Run `npm start` command in terminal. 
-5. Then use url to get data `http://{HOST}:{PORT}/api/employees/{id}`. Ex- http://localhost:8080/api/employees/10
+# Pre-requisite
+- Install Node.js, version >= 18
+- Bamboohr Account > API Key and Company sub-domain
 
-## Pre Requisites
+![alt text](image.png)
 
-1. Install node js, version >= 20.9.0
-2. Bamboohr account with api key and company domain
+- [BambooHR API Reference Documentation](https://documentation.bamboohr.com/reference/get-employee)
